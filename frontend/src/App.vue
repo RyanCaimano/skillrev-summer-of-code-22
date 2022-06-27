@@ -1,7 +1,9 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/about">About</router-link> |
+    <router-link to="/birthday">Birthday</router-link> |
+    <router-link to="/images">Images</router-link>
   </nav>
   <LoginControl />
   <router-view />
@@ -38,5 +40,10 @@ nav a {
 
 nav a.router-link-exact-active {
   color: #42b983;
+}
+
+.people {
+  width: 30%;
+  height: 30%;
 }
 </style>
